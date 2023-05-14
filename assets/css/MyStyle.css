@@ -81,12 +81,12 @@ h6 {
 }
 
 #header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 15px rgba(255, 255, 255, 0.1);
   padding: 12px 0;
 }
 
 #header.header-inner-pages {
-  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 15px rgba(255, 255, 255, 0.1);
 }
 
 #header .logo {
@@ -183,7 +183,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #a61a1a;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
 
@@ -321,7 +321,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -885,7 +885,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(85, 98, 112, 0.08);
+  box-shadow: 0 0 30px rgba(85, 98, 112, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -925,7 +925,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+  box-shadow: 0 2px 15px rgba(85, 98, 112, 0.08);
   padding: 30px;
   border-radius: 4px;
   background: white;
@@ -1117,7 +1117,7 @@ section {
   padding: 20px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   position: relative;
   overflow: hidden;
@@ -1261,7 +1261,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 40px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
 }
@@ -1653,7 +1653,7 @@ section {
 .blog .blog-author h4 {
   font-weight: 600;
   font-size: 22px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding: 0;
   color: #556270;
 }

@@ -22,8 +22,8 @@
                     <div class="carousel-container">
                         <div class="container">
                             <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>"Ferretería Juarez"</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Las Mejores Herramientas para las Mejores Personas como tú!</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">A Comprar!</a>
+                            <p class="animate__animated animate__fadeInUp">Las mejores herramientas para las mejores personas, ¡como tú!</p>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">¡A comprar!<i class="fi fi-sr-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         <div class="container">
                             <h2 class="animate__animated animate__fadeInDown">Las mejores marcas de ferretería de todo México</h2>
                             <p class="animate__animated animate__fadeInUp">Contamos con las mejores marcas de herramientas de ferretería y de muy buena calidad para que puedas construir todo lo que has estado soñando en construir!</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Marcas</a>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Marcas<i class="fi fi-sr-badge-check"></i></a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                         <div class="container">
                             <h2 class="animate__animated animate__fadeInDown">¿Problemas con tu baño? ¡No te preocupes! Aquí tenemos muchas soluciones para ayudarte en tus problemas</h2>
                             <p class="animate__animated animate__fadeInUp">Contamos con variedad de herramientas de plomería para que puedas arreglar o remodelar tu baño a como tú prefieras!</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver más<i class="fi fi-sr-circle-book-open"></i></a>
                         </div>
                     </div>
                 </div>

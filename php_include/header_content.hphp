@@ -8,10 +8,10 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href<?="=index.php"?> class="active"><i class="fi fi-sr-home" style="font-size: 30px;"></i></a></li>
-                <li><a href<?="=services.phtml"?>>Productos</a></li>
-                <li><a href<?="=services.phtml"?>>Servicios</a></li>
-                <li class="dropdown"><a href="#"><span>Marcas</span><i class="bi bi-chevron-down"></i></a>
+                <li><a href<?="=index.php"?> class="active"><i class="fi fi-sr-home"></i>Inicio</a></li>
+                <li><a href<?="=services.phtml"?>><i class="fi fi-sr-box-open-full"></i>Productos</a></li>
+                <li><a href<?="=services.phtml"?>><i class="fi fi-sr-hand-holding-medical"></i>Servicios</a></li>
+                <li class="dropdown"><a href="#"><span><i class="fi fi-sr-badge-check"></i>Marcas</span><i class="fi fi-ss-angle-down"></i></a>
                     <ul>
                         <li><a href<?="=team.phtml"?>>Truper</a></li>
                         <li><a href<?="=team.phtml"?>>Makita</a></li>
@@ -34,10 +34,10 @@
                 </li>
                 <!--<li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="pricing.html">Pricing</a></li>-->
-                <li><a href<?="=blog.phtml"?>>Nosotros</a></li>
+                <li><a href<?="=blog.phtml"?>><i class="fi fi-sr-info"></i>Nosotros</a></li>
 
-                <li><a href<?="=contact.phtml"?>>Contáctanos</a></li>
-                <li><a href<?="=index.php"?> class="getstarted">A COMPRAR!</a></li>
+                <li><a href<?="=contact.phtml"?>><i class="fi fi-sr-headset"></i>Contáctanos</a></li>
+                <li><a href<?="=index.php"?> class="getstarted">¡A COMPRAR!<i class="fi fi-sr-shopping-cart" style="font-size: 25px"></i></a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

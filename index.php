@@ -21,7 +21,7 @@
                 <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
                     <div class="carousel-container">
                         <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>"Ferretería Juarez"</span></h2>
+                            <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>"Ferretería Juárez"</span></h2>
                             <p class="animate__animated animate__fadeInUp">Las mejores herramientas para las mejores personas, ¡como tú!</p>
                             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">¡A comprar!<i class="fi fi-sr-shopping-cart"></i></a>
                         </div>

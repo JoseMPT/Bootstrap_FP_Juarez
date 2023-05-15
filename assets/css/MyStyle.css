@@ -6,6 +6,50 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/*----------------------
+# Mis estilos
+-----------------------*/
+.fixed-top{
+
+}
+
+main {
+  margin-top: 80px;
+}
+#main-register{
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/Fondo2-Editado.jpg)
+}
+#fondo{
+  padding: 30px;
+  backdrop-filter: brightness(115%);
+  background-color: #00000070;
+  border-radius: 50px;
+}
+#form-register{
+  color: #ffffff;
+  /*backdrop-filter: brightness(100%);*/
+  background-color: #00000000;
+}
+
+#form-register input{
+  /*background-color: #00000090;*/
+}
+
+section .form-group{
+  padding-top: 20px;
+}
+
+.form-group input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.title{
+  margin-top: 100px;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1361,16 +1405,16 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .php-email-form, .php-email-form {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .php-email-form .form-group, .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-form .error-message, .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1383,7 +1427,7 @@ section {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-form .sent-message, .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1392,14 +1436,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .php-email-form .loading, .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .php-email-form .loading:before, .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1411,7 +1455,7 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
+.contact .php-email-form input, .form-group input,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
@@ -1419,12 +1463,12 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form input:focus,
+.contact .php-email-form input:focus, .form-group input:focus,
 .contact .php-email-form textarea:focus {
   border-color: #d9232d;
 }
 
-.contact .php-email-form input {
+.contact .php-email-form input, .php-email-form input {
   height: 44px;
 }
 
@@ -1432,7 +1476,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type=submit], .php-email-form button[type=submit]{
   background: #d9232d;
   border: 0;
   padding: 10px 24px;
@@ -1441,7 +1485,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type=submit]:hover, .php-email-form button[type=submit]:hover {
   background: #e24d55;
 }
 

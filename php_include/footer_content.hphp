@@ -48,8 +48,8 @@
                     <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                     <form action="" method="post">
                         <label for="correo"></label>
-                        <input id="correo" type="email" name="email">
-                        <input type="submit" value="Subscribe">
+                        <input id="correo" type="email" name="email" placeholder="Correo de contacto">
+                        <input type="submit" value="Subscríbete">
                     </form>
                 </div>
             </div>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php require 'php_include/head_content.hphp' ?>
+<?php include 'php_include/head_content.hphp'?>
 <body>
-    <?php require 'php_include/header_content.hphp'?>
+    <?php include 'php_include/header_content.hphp'?>
     <main id="main-register" class="container-fluid">
         <br><br><br>
         <section id="fondo" class="container col-lg-4 col-md-6 col-sm-8">
-            <form id="form-register" action="/index.php" method="post" spellcheck="true" class="php-email-form" role="form">
+            <form id="form-register" action="./index.php" method="post" spellcheck="true" class="php-email-form" role="form">
                 <div class="text-center"><h2 class="text-center title">Registro de nuevo usuario</h2></div>
                 <section class="form-group">
                     <label for="name1" class="form-label">Primer nombre:</label>
@@ -46,7 +46,7 @@
         <br><br><br>
     </main>
 
-    <?php require 'php_include/footer_content.hphp' ?>
-    <?php require 'php_include/scripts_content.hphp' ?>
+    <?php include 'php_include/footer_content.hphp'?>
+    <?php include 'php_include/scripts_content.hphp'?>
 </body>
 </html>

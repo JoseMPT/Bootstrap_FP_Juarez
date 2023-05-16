@@ -41,20 +41,20 @@
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="blog-single.phtml">Dolorum optio tempore voluptas dignissimos cumque fuga qui
+                                <a href="blog-single.php">Dolorum optio tempore voluptas dignissimos cumque fuga qui
                                     quibusdam quia</a>
                             </h2>
 
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.phtml">John Doe</a></li>
+                                            href="blog-single.php">John Doe</a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.phtml">
+                                            href="blog-single.php">
                                         <time datetime="2020-01-01">Jan 1, 2020</time>
                                     </a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.phtml">12 Comments</a></li>
+                                            href="blog-single.php">12 Comments</a></li>
                                 </ul>
                             </div>
 
@@ -67,7 +67,7 @@
                                     perferendis dolore.
                                 </p>
                                 <div class="read-more">
-                                    <a href="blog-single.phtml">Read More</a>
+                                    <a href="blog-single.php">Read More</a>
                                 </div>
                             </div>
 
@@ -80,19 +80,19 @@
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="blog-single.phtml">Nisi magni odit consequatur autem nulla dolorem</a>
+                                <a href="blog-single.php">Nisi magni odit consequatur autem nulla dolorem</a>
                             </h2>
 
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.phtml">John Doe</a></li>
+                                            href="blog-single.php">John Doe</a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.phtml">
+                                            href="blog-single.php">
                                         <time datetime="2020-01-01">Jan 1, 2020</time>
                                     </a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.phtml">12 Comments</a></li>
+                                            href="blog-single.php">12 Comments</a></li>
                                 </ul>
                             </div>
 
@@ -106,7 +106,7 @@
                                     enim omnis non alias odio quos distinctio.
                                 </p>
                                 <div class="read-more">
-                                    <a href="blog-single.phtml">Read More</a>
+                                    <a href="blog-single.php">Read More</a>
                                 </div>
                             </div>
 
@@ -119,20 +119,20 @@
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="blog-single.phtml">Possimus soluta ut id suscipit ea ut. In quo quia et soluta
+                                <a href="blog-single.php">Possimus soluta ut id suscipit ea ut. In quo quia et soluta
                                     libero sit sint.</a>
                             </h2>
 
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.phtml">John Doe</a></li>
+                                            href="blog-single.php">John Doe</a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.phtml">
+                                            href="blog-single.php">
                                         <time datetime="2020-01-01">Jan 1, 2020</time>
                                     </a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.phtml">12 Comments</a></li>
+                                            href="blog-single.php">12 Comments</a></li>
                                 </ul>
                             </div>
 
@@ -144,7 +144,7 @@
                                     Ut dolores velit.
                                 </p>
                                 <div class="read-more">
-                                    <a href="blog-single.phtml">Read More</a>
+                                    <a href="blog-single.php">Read More</a>
                                 </div>
                             </div>
 
@@ -157,20 +157,20 @@
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="blog-single.phtml">Non rem rerum nam cum quo minus. Dolor distinctio deleniti
+                                <a href="blog-single.php">Non rem rerum nam cum quo minus. Dolor distinctio deleniti
                                     explicabo eius exercitationem.</a>
                             </h2>
 
                             <div class="entry-meta">
                                 <ul>
                                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                            href="blog-single.phtml">John Doe</a></li>
+                                            href="blog-single.php">John Doe</a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                            href="blog-single.phtml">
+                                            href="blog-single.php">
                                         <time datetime="2020-01-01">Jan 1, 2020</time>
                                     </a></li>
                                     <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                            href="blog-single.phtml">12 Comments</a></li>
+                                            href="blog-single.php">12 Comments</a></li>
                                 </ul>
                             </div>
 
@@ -184,7 +184,7 @@
                                     sint id earum ut nesciunt sed corrupti nemo.
                                 </p>
                                 <div class="read-more">
-                                    <a href="blog-single.phtml">Read More</a>
+                                    <a href="blog-single.php">Read More</a>
                                 </div>
                             </div>
 
@@ -229,32 +229,32 @@
                             <div class="sidebar-item recent-posts">
                                 <div class="post-item clearfix">
                                     <img alt="" src="assets/img/blog/blog-recent-1.jpg">
-                                    <h4><a href="blog-single.phtml">Nihil blanditiis at in nihil autem</a></h4>
+                                    <h4><a href="blog-single.php">Nihil blanditiis at in nihil autem</a></h4>
                                     <time datetime="2020-01-01">Jan 1, 2020</time>
                                 </div>
 
                                 <div class="post-item clearfix">
                                     <img alt="" src="assets/img/blog/blog-recent-2.jpg">
-                                    <h4><a href="blog-single.phtml">Quidem autem et impedit</a></h4>
+                                    <h4><a href="blog-single.php">Quidem autem et impedit</a></h4>
                                     <time datetime="2020-01-01">Jan 1, 2020</time>
                                 </div>
 
                                 <div class="post-item clearfix">
                                     <img alt="" src="assets/img/blog/blog-recent-3.jpg">
-                                    <h4><a href="blog-single.phtml">Id quia et et ut maxime similique occaecati ut</a>
+                                    <h4><a href="blog-single.php">Id quia et et ut maxime similique occaecati ut</a>
                                     </h4>
                                     <time datetime="2020-01-01">Jan 1, 2020</time>
                                 </div>
 
                                 <div class="post-item clearfix">
                                     <img alt="" src="assets/img/blog/blog-recent-4.jpg">
-                                    <h4><a href="blog-single.phtml">Laborum corporis quo dara net para</a></h4>
+                                    <h4><a href="blog-single.php">Laborum corporis quo dara net para</a></h4>
                                     <time datetime="2020-01-01">Jan 1, 2020</time>
                                 </div>
 
                                 <div class="post-item clearfix">
                                     <img alt="" src="assets/img/blog/blog-recent-5.jpg">
-                                    <h4><a href="blog-single.phtml">Et dolores corrupti quae illo quod dolor</a></h4>
+                                    <h4><a href="blog-single.php">Et dolores corrupti quae illo quod dolor</a></h4>
                                     <time datetime="2020-01-01">Jan 1, 2020</time>
                                 </div>
 

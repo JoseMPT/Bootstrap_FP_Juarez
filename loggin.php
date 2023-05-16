@@ -6,7 +6,7 @@
     <main id="main-loggin" class="container-fluid">
         <br><br><br><br><br><br><br>
         <section id="fondo" class="container col-lg-4 col-md-6 col-sm-8">
-            <form id="form-register" action="/index.php" method="post" spellcheck="true" class="php-email-form" role="form">
+            <form id="form-register" action="./index.php" method="post" spellcheck="true" class="php-email-form" role="form">
                 <div class="text-center"><h2 class="text-center title">Inicie sesión en su cuenta, para comenzar a comprar</h2></div>
                 <section class="form-group">
                     <label for="email" class="form-label col-lg-4">Correo electrónico:</label>
@@ -22,7 +22,7 @@
                     <button type="submit">Iniciar sesión</button>
                 </div>
                 <div class="text-center" style="margin-top: 5%">
-                    <p>¿No tienes una cuenta? Regístrate <a href="/register.phtml">aquí.</a></p>
+                    <p>¿No tienes una cuenta? Regístrate <a href="./register.php">aquí.</a></p>
                 </div>
             </form>
         </section>

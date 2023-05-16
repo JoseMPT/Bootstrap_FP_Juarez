@@ -9,15 +9,15 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a href<?="=index.php"?> class="active"><i class="fi fi-sr-home"></i>Inicio</a></li>
-                <li><a href<?="=services.phtml"?>><i class="fi fi-sr-box-open-full"></i>Productos</a></li>
-<!--                <li><a href=services.phtml"><i class="fi fi-sr-hand-holding-medical"></i>Servicios</a></li>-->
+                <li><a href<?="=services.php"?>><i class="fi fi-sr-box-open-full"></i>Productos</a></li>
+<!--                <li><a href=services.php"><i class="fi fi-sr-hand-holding-medical"></i>Servicios</a></li>-->
 
                 <li class="dropdown"><a href="#"><span><i class="fi fi-sr-badge-check"></i>Marcas</span><i class="fi fi-ss-angle-down"></i></a>
                     <ul>
-                        <li><a href<?="=team.phtml"?>>Truper</a></li>
-                        <li><a href<?="=team.phtml"?>>Makita</a></li>
-                        <li><a href<?="=team.phtml"?>>Pretul</a></li>
-                        <!--<li><a href="testimonials.html">Pretul</a></li>-->
+                        <li><a href<?="=team.php"?>>Truper</a></li>
+                        <li><a href<?="=team.php"?>>Makita</a></li>
+                        <li><a href<?="=team.php"?>>Pretul</a></li>
+                        <!--<li><a href="testimonials.php">Pretul</a></li>-->
 
                         <!--<li class="dropdown">
                         <a href="#"><span>Deep Drop Down</span>
@@ -35,10 +35,10 @@
                 </li>
                 <!--<li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="pricing.html">Pricing</a></li>-->
-                <li><a href<?="=blog.phtml"?>><i class="fi fi-sr-info"></i>Nosotros</a></li>
+                <li><a href<?="=blog.php"?>><i class="fi fi-sr-info"></i>Nosotros</a></li>
 
-                <li><a href<?="=contact.phtml"?>><i class="fi fi-sr-headset"></i>Contáctanos</a></li>
-                <li><a href<?="=loggin.phtml"?>><i class="fi fi-sr-user"></i>Cuenta</a></li>
+                <li><a href<?="=contact.php"?>><i class="fi fi-sr-headset"></i>Contáctanos</a></li>
+                <li><a href<?="=loggin.php"?>><i class="fi fi-sr-user"></i>Cuenta</a></li>
                 <li><a href<?="=index.php"?> class="getstarted">CARRITO<i class="fi fi-sr-shopping-cart" style="font-size: 25px"></i></a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

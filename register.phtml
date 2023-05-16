@@ -1,11 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <?php require 'php_include/head_content.hphp' ?>
 <body>
     <?php require 'php_include/header_content.hphp'?>
     <main id="main-register" class="container-fluid">
-        <section id="fondo" class="container col-lg-6 col-md-8 col-sm-10">
-            <form id="form-register" action="index.php" method="post" spellcheck="true" class="php-email-form" role="form">
+        <br><br><br>
+        <section id="fondo" class="container col-lg-4 col-md-6 col-sm-8">
+            <form id="form-register" action="/index.php" method="post" spellcheck="true" class="php-email-form" role="form">
                 <div class="text-center"><h2 class="text-center title">Registro de nuevo usuario</h2></div>
                 <section class="form-group">
                     <label for="name1" class="form-label">Primer nombre:</label>
@@ -14,7 +15,7 @@
                 </section>
                 <section class="form-group">
                     <label for="name2" class="form-label col-lg-4">Segundo nombre (Opcional):</label>
-                    <input type="text" name="text_name2" id="name2" class="form-control" placeholder="Opcional"
+                    <input type="text" name="text_name2" id="name2" class="form-control" placeholder="Nombre"
                            minlength="3" maxlength="30">
                 </section>
                 <section class="form-group">
@@ -42,6 +43,7 @@
                 </div>
             </form>
         </section>
+        <br><br><br>
     </main>
 
     <?php require 'php_include/footer_content.hphp' ?>

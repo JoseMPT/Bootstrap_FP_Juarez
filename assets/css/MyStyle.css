@@ -9,8 +9,10 @@
 /*----------------------
 # Mis estilos
 -----------------------*/
-.fixed-top{
-
+#main-loggin{
+  background-image: url(../img/tool_store_04.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 main {
@@ -19,18 +21,28 @@ main {
 #main-register{
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(../img/Fondo2-Editado.jpg)
+  background-image: url(../img/register-background-edited.jpg)
 }
 #fondo{
+  /*width: 90%;*/
+  /*margin: 90px auto;*/
+  /*position: relative;*/
+  /*display: flex;*/
+
   padding: 30px;
   backdrop-filter: brightness(115%);
-  background-color: #00000070;
+  background-color: #00000090;
   border-radius: 50px;
 }
 #form-register{
+  /*width: 50%;*/
+  /*height: 50%;*/
+  /*margin: auto;*/
+
   color: #ffffff;
   /*backdrop-filter: brightness(100%);*/
   background-color: #00000000;
+
 }
 
 #form-register input{
@@ -47,7 +59,7 @@ section .form-group{
 }
 
 .title{
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------

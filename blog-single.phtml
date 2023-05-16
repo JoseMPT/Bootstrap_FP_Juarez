@@ -5,7 +5,7 @@
 
 <body>
 
-    !-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
     <?php include 'php_include/header_content.hphp'?>
     <!-- End Header -->
 

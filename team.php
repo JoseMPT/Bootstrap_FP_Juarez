@@ -18,13 +18,14 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>Team</h2>
                     <ol>
-                        <li><a href="index.php">Home</a></li>
-                        <li>Team</li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li>Equipo</li>
                     </ol>
                 </div>
 
             </div>
-        </section><!-- End Breadcrumbs -->
+        </section>
+        <!-- End Breadcrumbs -->
 
         <!-- ======= Team Section ======= -->
         <section class="team " id="team">
@@ -103,9 +104,11 @@
                 </div>
 
             </div>
-        </section><!-- End Team Section -->
+        </section>
+        <!-- End Team Section -->
 
-    </main><!-- End #main -->
+    </main>
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <?php include 'php_include/footer_content.hphp'?>

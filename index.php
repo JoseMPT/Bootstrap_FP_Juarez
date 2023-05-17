@@ -32,8 +32,8 @@
                 <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
                     <div class="carousel-container">
                         <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">Las mejores marcas de ferretería de todo México</h2>
-                            <p class="animate__animated animate__fadeInUp">Contamos con las mejores marcas de herramientas de ferretería y de muy buena calidad para que puedas construir todo lo que has estado soñando en construir!</p>
+                            <h2 class="animate__animated animate__fadeInDown">Las mejores marcas de ferretería de todo México.</h2>
+                            <p class="animate__animated animate__fadeInUp">Contamos con las mejores marcas de herramientas de ferretería y de muy buena calidad. ¡Para que puedas construir todos tus sueños!</p>
                             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Marcas<i class="fi fi-sr-badge-check"></i></a>
                         </div>
                     </div>
@@ -43,8 +43,8 @@
                 <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
                     <div class="carousel-container">
                         <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">¿Problemas con tu baño? ¡No te preocupes! Aquí tenemos muchas soluciones para ayudarte en tus problemas</h2>
-                            <p class="animate__animated animate__fadeInUp">Contamos con variedad de herramientas de plomería para que puedas arreglar o remodelar tu baño a como tú prefieras!</p>
+                            <h2 class="animate__animated animate__fadeInDown">¿Problemas con tu baño? ¡No te preocupes! Aquí tenemos muchas soluciones para ayudarte en tus problemas.</h2>
+                            <p class="animate__animated animate__fadeInUp">Contamos con variedad de artículos de plomería para que puedas arreglar o remodelar de la manera que tú prefieras.</p>
                             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver más<i class="fi fi-sr-circle-book-open"></i></a>
                         </div>
                     </div>
@@ -71,23 +71,25 @@
 
                 <div class="row content">
                     <div class="col-lg-6">
-                        <h2>Eum ipsam laborum deleniti velitena</h2>
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+                        <h2>Marcas reconocidas</h2>
+                        <h3>
+                            Ofrecemos productos de las mejores marcas a precios especiales.
+                            ¡No hace falta buscar más!
+                        </h3>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
+                            Con nuestros productos no tendrás que preocuparte más por la mala calidad
+                            ni por fallos imprevistos en su uso. Nuestros productos están hechos para
+                            aguantar.
                         </p>
                         <ul>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+                            <li><i class="ri-check-double-line"></i>Calidad</li>
+                            <li><i class="ri-check-double-line"></i>Seguridad</li>
+                            <li><i class="ri-check-double-line"></i>Precio</li>
                         </ul>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            Todo lo que necesitas en un solo lugar.
                         </p>
                     </div>
                 </div>
@@ -103,27 +105,27 @@
                 <div class="row">
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-cemex.png" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-impulsa.png" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-petrul.png" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-rotoplas.png" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-truper-expert.png" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                        <img src="assets/img/brands/logo-concretos-cruz-azul.png" class="img-fluid" alt="">
                     </div>
 
                 </div>

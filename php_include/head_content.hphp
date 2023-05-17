@@ -25,6 +25,7 @@
 
     <!-- Archivo CSS principal de la plantilla -->
     <link href<?="=assets/css/MyStyle.css"?> rel="stylesheet">
+    <link href<?="=assets/css/styles_products.css"?> rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Sailor

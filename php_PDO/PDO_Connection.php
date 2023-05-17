@@ -13,4 +13,31 @@ class PDO_Connection
         $dsn = sprintf($text, $this->host, $this->dbname, $this->port, $this->user, $this->pass);
         return new PDO($dsn);
     }
+
+    public function pdoSelect(string $query): void
+    {
+        $pdo = $this->getPDO();
+        $command = $pdo->prepare($query);
+        $command->execute();
+    }
+
+    public function pdoInsert(string $query): void
+    {
+        $pdo = $this->getPDO();
+        $command = $pdo->prepare($query);
+        $command->execute();
+    }
+
+    public function pdoUpdate(string $query): void
+    {
+        $pdo = $this->getPDO();
+        $command = $pdo->prepare($query);
+        $command->execute();
+    }
+    public function pdoDelete(string $query): void
+    {
+        $pdo = $this->getPDO();
+        $command = $pdo->prepare($query);
+        $command->execute();
+    }
 }

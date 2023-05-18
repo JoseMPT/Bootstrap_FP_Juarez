@@ -6,10 +6,10 @@
                     <div class="footer-info">
                         <h3>Sailor</h3>
                         <p>
-                            A108 Adam Street <br>
-                            NY 535022, USA<br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            Av. Juárez Ote. N° 324 <br>
+                            Ciudad Hidalgo, Michoacán.<br><br>
+                            <strong>Teléfono:</strong> +52 1 786 129 8126<br>
+                            <strong>Correo:</strong> ferrejuarez324@hotmail.com<br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -22,35 +22,36 @@
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>Enlaces</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?='index.php'?>">Inicio</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?='about.php'?>">Sobre nosotros</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?='produtcs.php'?>">Productos</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Términos y condiciones</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Política de privacidad</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>Servicios</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Atención al cliente</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Cotización</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Promociones</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Rebajas</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Denuncia un problema</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <h4>Suscripción</h4>
+                    <p>Suscríbete para obtener noticias y novedades sobre nuestros productos.</p>
                     <form action="" method="post">
                         <label for="correo"></label>
                         <input id="correo" type="email" name="email" placeholder="Correo de contacto">
-                        <input type="submit" value="Subscríbete">
+                        <input type="submit" value="Suscribirse">
                     </form>
+
                 </div>
             </div>
         </div>
@@ -71,6 +72,6 @@
         </div>
     </div>
 </footer>
-<!-- El archivo portfolio-details.phtml contiene manualmente esta línea, si se cambia
+<!-- El archivo portfolio-details.php contiene manualmente esta línea, si se cambia
      asegúrese de hacer el mismo cambio en dicho archivo -->
 <a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i class="bi bi-arrow-up-short"></i></a>

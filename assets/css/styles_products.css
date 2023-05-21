@@ -33,23 +33,43 @@
 }
 
 .product-name{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .product-description{
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+#amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-product{
     border: none;
-    box-shadow: 2px 2px 3px 2px #dcdcdc;
+    /*box-shadow: 2px 2px 3px 2px #dcdcdc;*/
     cursor: pointer;
-    background-color: transparent;
-    border-radius: 10px;
+    background-color: #00000020;
+    border-radius: 3px;
+    padding-inline: 10px;
+    margin-inline: 3px;
 }
 
 .form-delete{
     padding-top: 20px;
+}
+
+.entries{
+    padding-bottom: 3%;
+}
+
+.select-amount{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
 }
 
 .button-product-delete{
@@ -65,7 +85,7 @@
     }
 
     .product-description{
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .icon-product{

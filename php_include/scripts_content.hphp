@@ -8,3 +8,5 @@
 
 <!-- Archivo JS principal de la plantilla -->
 <script src<?="=assets/js/main.js"?>></script>
+
+<script src<?='=node_modules/jquery/dist/jquery.min.js'?>></script>

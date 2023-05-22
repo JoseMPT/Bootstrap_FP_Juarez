@@ -122,9 +122,11 @@ $result = $command->fetchAll(PDO::FETCH_CLASS)
                     </div>
                     <!-- Fin de barra lateral de búsqueda -->
                 </div>
+
+                <?php foreach ($result as $item):?>
                 <div class="row">
                     <!-- Despliegue de productos -->
-                    <?php foreach ($result as $item):?>
+
                     <div class="col-lg-12 entries">
                         <form class="form-product php-email-form" name="form-data-materials" method="get" action="php_forms/add-product-to-cart.hphp">
                             <input class="product-id" type="hidden" name="product-id" value="<?=$item->product_id?>">
@@ -137,7 +139,7 @@ $result = $command->fetchAll(PDO::FETCH_CLASS)
                                 <div class="product-description" id="amount">
                                     <label for="select-amount">Cantidad: </label>
                                     <button type="button" id="" class="button-product button-less">-</button>
-                                    <input class="select-amount text-center" type="number" min="1" max="99" name="sale_amount" value="1">
+                                    <input id="select-amount" class="select-amount text-center" type="number" min="1" max="99" name="sale_amount" value="1">
                                     <button type="button" id="" class="button-product button-more">+</button>
                                 </div>
                             </div>
@@ -146,10 +148,10 @@ $result = $command->fetchAll(PDO::FETCH_CLASS)
                             </button>
                         </form>
                     </div>
-                    <?php endforeach;?>
+
                     <!-- Fin de la consulta de productos -->
                 </div>
-
+                <?php endforeach;?>
             </div>
         </section>
         <!-- Fin de la sección de productos -->

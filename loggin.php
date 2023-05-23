@@ -16,7 +16,7 @@
                 <section class="form-group">
                     <label for="pass" class="form-label">Contraseña:</label>
                     <input type="password" name="login_pass" id="pass" class="form-control" placeholder="Contraseña"
-                           minlength="3" maxlength="50" required>
+                           maxlength="50" required>
                 </section>
                 <div class="text-center">
                     <button type="submit" id="login-button">Iniciar sesión</button>

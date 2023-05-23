@@ -1,4 +1,10 @@
 $(document).ready(function (){
+    let formData =  $('#form-register')
+    let formQuit = (event) =>{
+        event.preventDefault()
+    }
+    formData.on('submit', formQuit)
+
     let submitButton = $('#submit-register')
 
     let loading = $('.loading')
@@ -13,6 +19,12 @@ $(document).ready(function (){
     let pass = $('#pass')
 
     let submit = () =>{
+        if (name1.val() === '') return
+        //if (name2.val() === '') return
+        if (lastname1.val() === '') return
+        //if (lastname2.val() === '') return
+        if (email.val() === '') return
+        if (pass.val() === '' || pass.val().length < 8) return
         let url = 'php_forms/new-account.hphp';
         let virtualForm = new FormData()
         virtualForm.append(name1.attr('name'), name1.val())
@@ -29,16 +41,28 @@ $(document).ready(function (){
     }
 
     let loadingProgress = () =>{
-        loading.toggleClass('d-block')
+        loading.addClass('d-block')
     }
 
+    let redirect = () =>{
+        window.location.replace('./index.php')
+    }
     let showMessage = (event) =>{
         let data = event.target
+        console.log(data.responseText)
         if (data.status === 200){
-            loading.toggleClass('d-block')
-            message.toggleClass('d-block')
-        } else{
-            error.toggleClass('d-block')
+            if (data.responseText === 'Failed'){
+                loading.removeClass('d-block')
+                error.html('<b>El correo electrónico ya está en uso, pruebe con otro.</b>')
+                error.addClass('d-block')
+                setTimeout(()=>{error.removeClass('d-block')}, 4000)
+            }else{
+                loading.removeClass('d-block')
+                error.removeClass('d-block')
+                message.html('<b>Registro exitoso.</b>')
+                message.addClass('d-block')
+                setTimeout(redirect, 500)
+            }
         }
     }
 

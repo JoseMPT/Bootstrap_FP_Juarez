@@ -4,17 +4,18 @@ $(document).ready(function (){
         event.preventDefault()
     }
     formLogin.on('submit', formQuit)
-
-    let loginButton = $('#login-button')
-
     let inputEmail = $('#email')
     let inputPass = $('#pass')
+
+    let loginButton = $('#login-button')
 
     let loading = $('.loading')
     let error = $('.error-message')
     let message = $('.sent-message')
 
     let loginAccount = () =>{
+        if (inputEmail.val() === '') return
+        if (inputPass.val() === '') return
         let url = 'php_forms/account-verification.hphp';
         let form = new FormData()
         form.append(inputEmail.attr('name'), inputEmail.val())
@@ -35,13 +36,13 @@ $(document).ready(function (){
     let show = (event) =>{
         let data = event.target
         let result = data.responseText
-        //console.log(result)
+
         if (data.status === 200){
             if (result === 'Failed'){
                 loading.removeClass('d-block')
                 error.html('<b>Usuario o contraseña incorrecta.</b>')
                 error.addClass('d-block')
-                formLogin[0].reset()
+                setTimeout(()=>{error.removeClass('d-block')},4000)
             }else{
                 loading.removeClass('d-block')
                 error.removeClass('d-block')
@@ -49,9 +50,6 @@ $(document).ready(function (){
                 message.addClass('d-block')
                 setTimeout(redirect, 500)
             }
-        }else{
-            message.html('<b>Verificado</b>')
-            message.toggleClass('d-block')
         }
     }
 

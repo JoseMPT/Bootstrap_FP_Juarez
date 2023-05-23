@@ -39,9 +39,9 @@
                            minlength="8" maxlength="50" required>
                 </section>
                 <div class="my-3">
-                    <div class="loading">Registrando...</div>
-                    <div class="error-message">Ha ocurrido un error, vuelva a intentarlo más tarde.</div>
-                    <div class="sent-message">Registro exitoso.</div>
+                    <div class="loading"></div>
+                    <div class="error-message"></div>
+                    <div class="sent-message"></div>
                 </div>
                 <div class="text-center">
                     <button type="submit" id="submit-register">Registrarse</button>
@@ -53,5 +53,6 @@
 
     <?php include 'php_include/footer_content.hphp'?>
     <?php include 'php_include/scripts_content.hphp'?>
+    <script src="js/register-user.js"></script>
 </body>
 </html>

@@ -34,7 +34,7 @@ main {
   background-color: #00000090;
   border-radius: 50px;
 }
-#form-register{
+#form-register, #form-login {
   /*width: 50%;*/
   /*height: 50%;*/
   /*margin: auto;*/

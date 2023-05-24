@@ -6,7 +6,7 @@
     align-content: center;
     /*padding-top: 5%;*/
     box-shadow: 2px 2px 3px 0 #d0d0d0;
-    /*border-radius: 30px;*/
+    border-radius: 5px;
     font-size: 11px;
 }
 
@@ -34,9 +34,9 @@ input[type=number] { -moz-appearance:textfield; }
 .div-product-data{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }
 
 .product-name{

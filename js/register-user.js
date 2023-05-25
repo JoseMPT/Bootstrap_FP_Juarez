@@ -25,7 +25,7 @@ $(document).ready(function (){
         //if (lastname2.val() === '') return
         if (email.val() === '') return
         if (pass.val() === '' || pass.val().length < 8) return
-        let url = 'php_forms/new-account.hphp';
+        let url = 'php_forms/new-account.php';
         let virtualForm = new FormData()
         virtualForm.append(name1.attr('name'), name1.val())
         virtualForm.append(name2.attr('name'), name2.val())
@@ -45,7 +45,7 @@ $(document).ready(function (){
     }
 
     let redirect = () =>{
-        window.location.replace('./index.php')
+        window.location.replace('./loggin.php')
     }
     let showMessage = (event) =>{
         let data = event.target

@@ -16,7 +16,7 @@ $(document).ready(function (){
     let loginAccount = () =>{
         if (inputEmail.val() === '') return
         if (inputPass.val() === '') return
-        let url = 'php_forms/account-verification.hphp';
+        let url = 'php_forms/account-verification.php';
         let form = new FormData()
         form.append(inputEmail.attr('name'), inputEmail.val())
         form.append(inputPass.attr('name'), inputPass.val())

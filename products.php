@@ -128,7 +128,7 @@ $result = $command->fetchAll(PDO::FETCH_CLASS)
                     <!-- Despliegue de productos -->
 
                     <div class="col-lg-12 entries">
-                        <form class="form-product php-email-form" name="form-data-materials" method="get" action="php_forms/add-product-to-cart.hphp">
+                        <form class="form-product php-email-form" name="form-data-materials" method="get" action="php_forms/add-product-to-cart.php">
                             <input class="product-id" type="hidden" name="product-id" value="<?=$item->product_id?>">
                             <i class="fi fi-sr-box-open icon-product"></i>
                             <!--<img class="icon_products" src="icons/product.svg" alt="product">-->

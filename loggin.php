@@ -39,6 +39,6 @@
 
     <?php require 'php_include/footer_content.hphp'?>
     <?php require 'php_include/scripts_content.hphp'?>
-    <script id="validate" src="js/validate-user.js"></script>
+    <script src="js/validate-user.js"></script>
 </body>
 </html>

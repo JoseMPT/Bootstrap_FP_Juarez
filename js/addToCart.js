@@ -29,7 +29,7 @@ $(document).ready(function () {
         error = $(divMessages).children().eq(1)
         successful = $(divMessages).children().eq(2)
 
-        let url = 'php_forms/add-product-to-cart.hphp'
+        let url = 'php_forms/add-product-to-cart.php'
         let formData = new FormData()
         formData.append(inputID.attr('name'), inputID.val())
         formData.append(amount.attr('name'), amount.val())

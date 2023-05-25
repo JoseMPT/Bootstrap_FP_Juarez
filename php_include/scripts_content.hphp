@@ -10,3 +10,4 @@
 <script src<?="=assets/js/main.js"?>></script>
 
 <script src<?='=node_modules/jquery/dist/jquery.min.js'?>></script>
+<script src<?='=js/subscription.js'?>></script>

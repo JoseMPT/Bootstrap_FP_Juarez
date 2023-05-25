@@ -1,9 +1,10 @@
 <?php
-include_once '../php_PDO/PDO_Connection.php';
-
-$email = $_POST['email'];
-
-$connection = new PDO_Connection();
-$pdo = $connection->getPDO();
-
-$command = $pdo->prepare('');
+try {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    echo 'Successful';
+}catch (Exception $exception){
+    echo 'Failed';
+}

@@ -5,6 +5,13 @@ $(document).ready(function (){
     }
     formData.on('submit', formQuit)
 
+    function validarCorreo(correo) {
+        // Expresión regular para validar el correo electrónico
+        let expression = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // Utiliza el método test() de la expresión regular para verificar si el correo es válido
+        return expression.test(correo);
+    }
+
     let submitButton = $('#submit-register')
 
     let loading = $('.loading')
@@ -24,6 +31,13 @@ $(document).ready(function (){
         if (lastname1.val() === '') return
         //if (lastname2.val() === '') return
         if (email.val() === '') return
+        if (!validarCorreo(email.val())){
+            loading.removeClass('d-block')
+            error.html('<b>Ingrese una dirección de correo válida.</b>')
+            error.addClass('d-block')
+            setTimeout(()=>{error.removeClass('d-block')}, 4000)
+            return
+        }
         if (pass.val() === '' || pass.val().length < 8) return
         let url = 'php_forms/new-account.php';
         let virtualForm = new FormData()

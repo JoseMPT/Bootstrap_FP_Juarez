@@ -3,6 +3,15 @@ $(document).ready(function (){
     let formQuit = (event) =>{
         event.preventDefault()
     }
+
+    function validarCorreo(correo) {
+        // Expresión regular para validar el correo electrónico
+        let expression = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // Utiliza el método test() de la expresión regular para verificar si el correo es válido
+        return expression.test(correo);
+    }
+
+
     formLogin.on('submit', formQuit)
     let inputEmail = $('#email')
     let inputPass = $('#pass')
@@ -15,6 +24,13 @@ $(document).ready(function (){
 
     let loginAccount = () =>{
         if (inputEmail.val() === '') return
+        if (!validarCorreo(inputEmail.val())){
+            loading.removeClass('d-block')
+            error.html('<b>Ingrese una dirección de correo válida.</b>')
+            error.addClass('d-block')
+            setTimeout(()=>{error.removeClass('d-block')}, 4000)
+            return
+        }
         if (inputPass.val() === '') return
         let url = 'php_forms/account-verification.php';
         let form = new FormData()

@@ -31,9 +31,10 @@
             <div class="container">
 
                 <div>
-                    <iframe allowfullscreen
+                    <!--<iframe allowfullscreen
                             frameborder="0"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" style="border:0; width: 100%; height: 270px;"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" style="border:0; width: 100%; height: 270px;"></iframe>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1684981999413!6m8!1m7!1sDtXDtvuRNFO5r1awbITMrQ!2m2!1d19.6886321240918!2d-100.5346297590831!3f355.0345614486105!4f-17.683925364180894!5f0.7820865974627469" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 <div class="row mt-5">
@@ -65,7 +66,7 @@
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
 
-                        <form action="forms/contact.php" class="php-email-form" method="post" role="form">
+                        <form id="form-comments" class="php-email-form" method="post" role="form">
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <label for="name"></label>
@@ -89,12 +90,12 @@
                                           rows="5"></textarea>
                             </div>
                             <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
+                                <div class="loading"></div>
+                                <div class="error-message">Error, inténtelo más tarde</div>
                                 <div class="sent-message">Tus comentarios han sido enviados. ¡Gracias!</div>
                             </div>
                             <div class="text-center">
-                                <button type="submit">Enviar comentarios<i class="fi fi-sr-paper-plane"></i></button>
+                                <button type="submit" id="button-comments">Enviar comentarios<i class="fi fi-sr-paper-plane"></i></button>
                             </div>
                         </form>
 
@@ -112,7 +113,7 @@
     <!-- End Footer -->
 
     <?php include 'php_include/scripts_content.hphp'?>
-
+    <script src="js/send-comments.js"></script>
 </body>
 
 </html>

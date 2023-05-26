@@ -5,6 +5,8 @@ $(document).ready(function () {
     let inc = (event) =>{
         let button = event.target
         let input = $(button).prev()
+        // let price = $(input.parent()).siblings().eq(2)
+        // console.log(price)
         if (input.val() < 99) input.val(parseInt(input.val())+1)
     }
     let dec = (event) =>{

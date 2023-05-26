@@ -192,7 +192,7 @@
         <!-- Fin de Misión, Visión y Valores -->
 
         <!-- ======= Sección de equipo ======= -->
-        <section class="team section-bg" id="team">
+        <!--<section class="team section-bg" id="team">
             <div class="container">
 
                 <div class="section-title">
@@ -273,7 +273,7 @@
                 </div>
 
             </div>
-        </section>
+        </section>-->
         <!-- Fin de 'equipo' -->
 
         <!-- ======= Nuestras habilidades ======= -->

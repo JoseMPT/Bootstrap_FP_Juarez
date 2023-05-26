@@ -26,7 +26,7 @@
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="<?='index.php'?>">Inicio</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="<?='about.php'?>">Sobre nosotros</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="<?='produtcs.php'?>">Productos</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?='products-search.php'?>">Productos</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Términos y condiciones</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Política de privacidad</a></li>
                     </ul>

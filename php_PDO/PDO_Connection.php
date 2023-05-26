@@ -33,4 +33,21 @@ class PDO_Connection
         $command->bindParam(':buy_id', $buy_id);
         $command->execute();
     }
+
+    public function deleteFromCart($id, $cartID): void
+    {
+        $pdo = $this->getPDO();
+        $command = $pdo->prepare('CALL delete_sale_data(:id, :cart_id);');
+        $command->bindParam(':id', $id);
+        $command->bindParam(':cart_id', $cartID);
+        $command->execute();
+    }
+
+    public function buyAll($cartID): void
+    {
+        $pdo = $this->getPDO();
+        $commandBuy = $pdo->prepare('CALL make_purchase(:cart_id);');
+        $commandBuy->bindParam(':cart_id', $cartID);
+        $commandBuy->execute();
+    }
 }

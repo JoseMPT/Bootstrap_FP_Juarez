@@ -24,7 +24,6 @@ if (count($result) == 0){
     $_SESSION['user_lastname2'] =  $result[0]->user_lastname2;
     $_SESSION['user_email'] = $result[0]->user_email;
     $_SESSION['user_type'] = $result[0]->user_type;
-    //'<meta http-equiv="refresh" content="0; URL=./index.php">';
     echo 'Successful';
 } else  {
     echo 'Failed';

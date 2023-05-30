@@ -47,7 +47,7 @@
                 </li>";
                 else echo "<li><a href='loggin.php'><i class='fi fi-sr-user'></i>Cuenta</a></li>"
                 ?>
-                <!--<li><a href<?php /*="=loggin.php"*/?>><i class="fi fi-sr-user"></i>Cuenta</a></li>-->
+                <li><a href<?='=ecoweb.php'?>><i class="fi fi-sr-leaf"></i>EcoWeb</a></li>
                 <li><a href<?=(isset($_SESSION['user_name1']) ? "=shopping-cart.php" : "=loggin.php")?> class="getstarted">CARRITO<i class="fi fi-sr-shopping-cart" style="font-size: 25px"></i></a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

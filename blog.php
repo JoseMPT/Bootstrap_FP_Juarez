@@ -24,7 +24,8 @@
                 </div>
 
             </div>
-        </section><!-- End Breadcrumbs -->
+        </section>
+        <!-- End Breadcrumbs -->
 
         <!-- ======= Blog Section ======= -->
         <section class="blog" id="blog">

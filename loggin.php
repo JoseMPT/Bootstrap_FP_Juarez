@@ -22,7 +22,7 @@
                     <button type="submit" id="login-button">Iniciar sesión</button>
                 </div>
                 <div class="text-center" style="margin-top: 5%">
-                    <p>¿No tienes una cuenta? Regístrate <a href="./register.php">aquí.</a></p>
+                    <p>¿No tienes cuenta? Regístrate <a href="./register.php">aquí.</a></p>
                 </div>
                 <div class="my-3">
                     <div class="loading"></div>
